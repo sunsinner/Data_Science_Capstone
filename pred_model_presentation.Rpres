@@ -1,0 +1,51 @@
+Coursera Data Science Specialization Capstone Project
+========================================================
+author: Jhon Sebastian Villarreal
+date: 4/2/2021
+autosize: true
+
+The app...
+========================================================
+
+This app takes some text input and outputs a prediction of the next word. 
+
+Next word prediction model uses the principles of "tidy data" applied to text mining in R. 
+
+The magic behind...
+========================================================
+
+- It takes the last 3, 2, or 1 words from the input phrase
+
+- It matches words with the best 4th, 3rd, or 2nd match in a 2 word, 3 word or 4 word n-grams tibbles.
+
+- Tibbles are sort by frequency and created from a clean training data of text lines, so "best" means the most frequent match within the text lines. 
+
+Simple to use...
+========================================================
+
+1. Enter a word or words in the text box.
+2. The predicted next word will be print below it in blue.
+3. Don't worry. There's no need to hit enter of submit.
+4. A 'Sorry. I don't get it' message means no prediction, typically due to mis-spelling.
+5. Additional tabs show plots of the top ngrams in the dataset.
+
+Designed just for you...
+========================================================
+
+The app provides a simple user interface to the next word prediction model.
+
+Key Features:
+- Text box for user input
+- Predicted next word outputs dynamically below user input
+- Tabs with plots of most frequent n grams in the data-set
+- Side panel with user instructions
+
+Key Benefits:
+- Fast response
+- Method allows for large training sets leading to better next word predictions
+
+Enjoy it
+========================================================
+[Shiny App link](https://sunsinner.shinyapps.io/Text_Prediction_model/) 
+
+[Source code](https://github.com/sunsinner/Data_Science_Capstone/blob/main/app.rar) 
